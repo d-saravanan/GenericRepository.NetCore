@@ -1,0 +1,19 @@
+{
+  "title": "Sample Api Core Library",
+  "copyright": "Saravanan.D",
+  "description": "Sample Api Core Library",
+  "version": "1.0.0-alpha",
+
+  "dependencies": {
+    "GenericRepository": "1.0.0-alpha",
+    "GenericRepository.EF": "1.0.0-alpha",
+    "GenericServices": "1.0.0-alpha",
+    "NETStandard.Library": "1.6.0"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

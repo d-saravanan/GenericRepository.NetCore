@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleWebApi", "SampleWebApi\SampleWebApi.xproj", "{FF306CA6-0CDF-4F14-848C-D0F7F3E83BA5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GenericRepository.EF", "GenericRepository.EF\GenericRepository.EF.xproj", "{06094BFA-B761-4BE0-A224-4D5F1ACF5E4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Repositories", "Repositories", "{E513AD7B-E855-4306-A670-CC82194CF318}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SampleApps", "SampleApps", "{B3927F3E-B194-49EB-A717-B78B9377C03F}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "SampleWebApi.Core", "SampleWebApi.Core\SampleWebApi.Core.xproj", "{525B9D95-BD00-4546-A338-4983F19F1CB8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{FD57ECC9-268E-41FA-84AB-EA76B52FC390}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GenericServices", "GenericServices\GenericServices.xproj", "{26F55DDB-E82F-44CD-91F6-F9C3EBCED82B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{597B5FDD-E2BF-4A3B-BB42-544513172C83}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "GenericRepository", "GenericRepository\GenericRepository.xproj", "{F9A78791-92A6-4353-A521-5565339D98BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FF306CA6-0CDF-4F14-848C-D0F7F3E83BA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF306CA6-0CDF-4F14-848C-D0F7F3E83BA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF306CA6-0CDF-4F14-848C-D0F7F3E83BA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF306CA6-0CDF-4F14-848C-D0F7F3E83BA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06094BFA-B761-4BE0-A224-4D5F1ACF5E4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06094BFA-B761-4BE0-A224-4D5F1ACF5E4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06094BFA-B761-4BE0-A224-4D5F1ACF5E4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06094BFA-B761-4BE0-A224-4D5F1ACF5E4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{525B9D95-BD00-4546-A338-4983F19F1CB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{525B9D95-BD00-4546-A338-4983F19F1CB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{525B9D95-BD00-4546-A338-4983F19F1CB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{525B9D95-BD00-4546-A338-4983F19F1CB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{26F55DDB-E82F-44CD-91F6-F9C3EBCED82B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{26F55DDB-E82F-44CD-91F6-F9C3EBCED82B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{26F55DDB-E82F-44CD-91F6-F9C3EBCED82B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{26F55DDB-E82F-44CD-91F6-F9C3EBCED82B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A78791-92A6-4353-A521-5565339D98BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A78791-92A6-4353-A521-5565339D98BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A78791-92A6-4353-A521-5565339D98BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A78791-92A6-4353-A521-5565339D98BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FF306CA6-0CDF-4F14-848C-D0F7F3E83BA5} = {B3927F3E-B194-49EB-A717-B78B9377C03F}
+		{06094BFA-B761-4BE0-A224-4D5F1ACF5E4C} = {E513AD7B-E855-4306-A670-CC82194CF318}
+		{525B9D95-BD00-4546-A338-4983F19F1CB8} = {B3927F3E-B194-49EB-A717-B78B9377C03F}
+		{26F55DDB-E82F-44CD-91F6-F9C3EBCED82B} = {FD57ECC9-268E-41FA-84AB-EA76B52FC390}
+		{F9A78791-92A6-4353-A521-5565339D98BB} = {E513AD7B-E855-4306-A670-CC82194CF318}
+	EndGlobalSection
+EndGlobal

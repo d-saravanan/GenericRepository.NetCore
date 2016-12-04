@@ -1,0 +1,19 @@
+﻿{
+  "title": "GenericRepository.EF",
+  "copyright": "Saravanan.D",
+  "description": "Generic Repository For Entity Framework",
+  "version": "1.0.0-alpha",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Microsoft.EntityFrameworkCore": "1.1.0",
+    "Microsoft.EntityFrameworkCore.SqlServer": "1.1.0",
+    "GenericRepository": "1.0.0-alpha"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}

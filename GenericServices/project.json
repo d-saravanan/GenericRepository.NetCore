@@ -1,0 +1,20 @@
+﻿{
+  "title": "Generic Services",
+  "copyright": "Saravanan.D",
+  "description": "The Generic Services framework",
+  "version": "1.0.0-alpha",
+
+  "dependencies": {
+    "NETStandard.Library": "1.6.0",
+    "Microsoft.EntityFrameworkCore": "1.1.0",
+    "System.Diagnostics.TraceSource": "4.0.0",
+    "GenericRepository": "1.0.0-alpha",
+    "GenericRepository.EF": "1.0.0-alpha"
+  },
+
+  "frameworks": {
+    "netstandard1.6": {
+      "imports": "dnxcore50"
+    }
+  }
+}
